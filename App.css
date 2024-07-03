@@ -1,0 +1,691 @@
+footer{
+    position: relative;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+li{
+    margin-left: 40px;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+    margin-top: 6px;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+#socialmedia{
+    margin-top: 20px;
+    font-size: large;
+}
+option{
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+select{
+    font-family: "Lato", sans-serif;
+    height: 20px;
+    border: 0px;
+   font-size: 15px;
+   cursor: pointer;
+   background-color: transparent;
+   width: 88px;
+}
+select:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 1.5px;
+}
+#socialmedia{
+    margin-top: 18px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+#smic{
+    margin-left: 720px;
+    cursor: pointer;
+}
+header{
+    background-color: darkgrey;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+    height: 60px;
+    left: 0px;
+}
+#logo1{
+    width: 150px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+footer{
+    background-color: darkgray;
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+#logotxt{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 120px;
+    text-align: center;
+    margin-left: 58px;
+}
+#bottomul{
+    margin-left: 40px;
+    line-height: 1.8;
+    margin-top: 14px;
+}
+#product{
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 14px;
+}
+#bottomul1{
+    margin-left: 20px;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+#contactbox{
+    height: 205px;
+    width: 30%;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 286px;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: rgb(27, 27, 27);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.cs{
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+#contact{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    margin-left: 30px;
+    color: white;
+    margin-top: 8px;
+}
+#bottomul2{
+    margin-left: 80px;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+#fu{
+    font-size: 17px;
+    margin-top: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+#fi{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#fi:hover{
+    cursor: pointer;
+    color: white;
+}
+#boxeg{
+    width: 100px;
+    height: 100px;
+}
+  .changetext{
+    margin-top: 150px;
+    margin-left: 88px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  #bike{
+    width: 100%;
+    height: 1000px;
+    background-image: url("bike.png");
+    position: relative;
+    background-size: cover;
+}
+#brand{
+    width: 270px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 220px;
+    position: relative;
+    cursor: pointer;
+}
+#bikename{
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    margin-left: 60px;
+    line-height: 0;
+    position: relative;
+    color: white;
+    margin-top: 60px;
+}
+#model{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    margin-left: 60px;
+    position: relative;
+    color: white;
+    margin-top: 40px;
+}
+#bikeinf{
+    font-family: "Poppins", sans-serif;
+    margin-left: 60px;
+    font-size: 18px;
+    position: relative;
+    color: white;
+}
+#clr{
+    font-family: "Poppins", sans-serif;
+    margin-left: 60px;
+    color: white;
+    margin-top: 20px;
+}
+.colorselect {
+    margin-left: 60px;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+#red{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 0, 0, 0.681);
+    cursor: pointer;
+    border: 2px solid rgb(244, 239, 239);
+}
+#red:hover{
+    border: 2px solid rgba(255, 0, 0, 0.681);
+}
+#blue{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(25, 0, 255, 0.66);
+    cursor: pointer;
+    margin-left: 15px;
+    border: 2px solid rgb(244, 239, 239);
+}
+#blue:hover{
+    border: 2px solid rgba(25, 0, 255, 0.66);
+}
+#black{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    margin-left: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(244, 239, 239);
+}
+#black:hover{
+    border: 2px solid black;
+}
+#bnow{
+    font-family: "Poppins", sans-serif;
+    margin-left: 60px;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    position: relative;
+}
+#bnow:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#bike2{
+    width: 100%;
+    height: 1000px;
+    background-image: url("blue.png");
+    background-size: cover;
+    position: relative;
+}
+#brand2{
+    width: 300px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 170px;
+    cursor: pointer;
+    position: relative;
+}
+#bikename2{
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+    margin-left: 90px;
+    line-height: 0;
+    position: relative;
+    color: white;
+    margin-top: 78px;
+}
+#model2{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    margin-left: 750px;
+    margin-top: 55px;
+    position: relative;
+    color: white;
+}
+#bikeinf2{
+    font-family: "Poppins", sans-serif;
+    margin-left: 520px;
+    margin-top: 140px;
+    font-size: 17px;
+    position: relative;
+    color: white;
+}
+#lite{
+    display: flex;
+}
+#bnow2{
+    font-family: "Poppins", sans-serif;
+    width: 180px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    line-height: 0;
+    margin-left: 388px;
+    position: relative;
+}
+#bnow2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#clr2{
+    font-family: "Poppins", sans-serif;
+    margin-left: 1180px;
+    position: relative;
+    color: white;
+}
+.colorselect2 {
+    margin-left: 1180px;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+#red2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 0, 0, 0.681);
+    cursor: pointer;
+    border: 2px solid rgb(244, 239, 239);
+}
+#red2:hover{
+    border: 2px solid rgba(255, 0, 0, 0.681);
+}
+#blue2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(25, 0, 255, 0.66);
+    cursor: pointer;
+    margin-left: 15px;
+    border: 2px solid rgb(244, 239, 239);
+}
+#blue2:hover{
+    border: 2px solid rgba(25, 0, 255, 0.66);
+}
+#black2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    margin-left: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(244, 239, 239);
+}
+#black2:hover{
+    border: 2px solid black;
+}
+#disname{
+    display: flex;
+}
+#bike3{
+    width: 100%;
+    height: 1000px;
+    background-image: url("golden.png");
+    background-size: cover;
+    position: relative;
+}
+#brand3{
+    width: 310px;
+    height: 150px;
+    margin-left: 44px;
+    margin-top: 170px;
+    cursor: pointer;
+    position: relative;
+}
+#bikename3{
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+    margin-left: 60px;
+    line-height: 0;
+    position: relative;
+    color: white;
+    margin-top: 60px;
+}
+#model3{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    margin-left: 60px;
+    line-height: 1;
+    position: relative;
+    color: white;
+    margin-top: 60px;
+}
+#bikeinf3{
+    font-family: "Poppins", sans-serif;
+    margin-left: 60px;
+    font-size: 17px;
+    position: relative;
+    color: white;
+    margin-top: 20px;
+}
+#bnow3{
+    font-family: "Poppins", sans-serif;
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    line-height: 0;
+    position: relative;
+}
+#bnow3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#max{
+    display: flex;
+}
+#clr3{
+    font-family: "Poppins", sans-serif;
+    margin-left: 80px;
+    position: relative;
+    color: white;
+    margin-top: 20px;
+}
+.colorselect3 {
+    margin-left: 80px;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+#red3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: goldenrod;
+    cursor: pointer;
+    border: 2px solid rgb(244, 239, 239);
+}
+#red3:hover{
+    border: 2px solid goldenrod;
+}
+#blue3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(25, 0, 255, 0.66);
+    cursor: pointer;
+    margin-left: 15px;
+    border: 2px solid rgb(244, 239, 239);
+}
+#blue3:hover{
+    border: 2px solid rgba(25, 0, 255, 0.66);
+}
+#black3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    margin-left: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(244, 239, 239);
+}
+#black3:hover{
+    border: 2px solid black;
+}
+#clrslct{
+    display: flex;
+    flex-direction: column;
+    margin-left: 840px;
+    margin-top: 170px;
+}
+/* background animation */
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box !important;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: table;
+      width: 100%;
+      height: 100%;
+      background-color: #171717;
+      color: #000;
+      line-height: 1.6;
+      position: relative;
+      font-family: sans-serif;
+      overflow: auto;
+    }
+
+    .lines {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      margin: auto;
+      width: 90vw;
+    }
+
+    .line {
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      top: 0;
+      left: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+    }
+    .line::after {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 15vh;
+      width: 100%;
+      top: -50%;
+      left: 0;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+      -webkit-animation: drop 7s 0s infinite;
+              animation: drop 7s 0s infinite;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+      -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+              animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+    }
+    .line:nth-child(1) {
+      margin-left: -25%;
+    }
+    .line:nth-child(1)::after {
+      -webkit-animation-delay: 2s;
+              animation-delay: 2s;
+    }
+    .line:nth-child(2) {
+      margin-left: -12.5%;
+    }
+    .line:nth-child(2)::after {
+      -webkit-animation-delay: 2.25s;
+              animation-delay: 2.25s;
+    }
+    .line:nth-child(3) {
+      margin-left: 0;
+    }
+    .line:nth-child(3)::after {
+      -webkit-animation-delay: 2.5s;
+              animation-delay: 2.5s;
+    }
+    .line:nth-child(4) {
+      margin-left: 12.5%;
+    }
+    .line:nth-child(4)::after {
+      -webkit-animation-delay: 2.75s;
+              animation-delay: 2.75s;
+    }
+    .line:nth-child(5) {
+      margin-left: 25%;
+    }
+    .line:nth-child(5)::after {
+      -webkit-animation-delay: 3s;
+              animation-delay: 3s;
+    }
+
+    @-webkit-keyframes drop {
+      0% {
+        top: -50%;
+      }
+      100% {
+        top: 110%;
+      }
+    }
+
+    @keyframes drop {
+      0% {
+        top: -50%;
+      }
+      100% {
+        top: 110%;
+      }
+    }
+    .app-container{
+        background: scroll;
+    }
+    .lines-background{
+        background: scroll;
+    }
+/* background animation */
+html, body {
+    scroll-behavior: smooth;
+  }
+  /* preorderanim */
+  #body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 74px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .container {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background: #ffffff;
+  }
+  
+  .clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+  }
+  
+  .clip1 {
+    background: url("muldir2.png");
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 26% 0%, 31% 100%, 0 100%);
+  }
+  
+  .clip2 {
+    background: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(24% 0, 73% 0, 74% 100%, 33% 100%);
+  }
+  
+  .clip3 {
+    background: url("muldir.png");
+    background-size: cover;
+    background-position: right;
+    clip-path: polygon(73% 0, 100% 0, 100% 100%, 64% 100%);
+  }
+  
+  .container:hover .clip {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  }
+  
+  .container .clip:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  #preordertxt{
+   font-family: "Poppins", sans-serif;
+   font-size: 46px;
+   color: white;
+   margin-left: 70px;
+  }
+  #preorderbtn{
+    font-family: "Poppins", sans-serif;
+    width: 180px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: rgb(203, 203, 203);
+    margin-left: 673px;
+    position: relative;
+  }
+  #preorderbtn:hover{
+    background-color: white;
+    cursor: pointer;
+  }
+  /* preorderanim */
