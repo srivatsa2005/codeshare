@@ -1,0 +1,253 @@
+body {
+    font-family: 'Calibri', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+header {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Poppins, sans-serif;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 400px;
+    top: 0px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #3C3C3C;
+}
+
+.download-app {
+    text-align: center;
+}
+
+.app-stores {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.app-stores a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #424242;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.app-stores a:hover {
+    background-color: #F9ED32;
+}
+
+footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    right: 0px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-links i {
+    font-size: 1.5em;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links a:hover i {
+    transform: scale(1.1);
+    color: #F9ED32;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    color: #F2F2F2;
+}
+
+.tag1 {
+    font-size: 20px;
+    color: #F2F2F2;
+    position: relative;
+    left: 480px;
+}
+
+.tag2 {
+    font-size: 20px;
+    color: #F2F2F2;
+    position: relative;
+    left: 300px;
+    text-align: center;
+}
+
+.t1 {
+    padding: 15px;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+}
+
+main {
+    padding: 50px;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    section {
+        padding: 15px;
+    }
+    
+    .app-stores {
+        justify-content: center;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+    
+    p {
+        font-size: 1em;
+        line-height: 1.3;
+    }
+    
+    .download-app {
+        margin-top: 30px;
+    }
+    
+    .app-stores a {
+        background-color: #424242;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        transition: none;
+    }
+    
+    .tag1, .tag2 {
+        display: none;
+    }
+}
